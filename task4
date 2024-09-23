@@ -1,0 +1,4 @@
+func descendingOrder(of number: Int) -> Int {
+    let sortedCharacters = String(number).characters.sorted { $0 > $1 }
+    return Int(String(sortedCharacters))!
+}
