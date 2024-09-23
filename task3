@@ -1,0 +1,8 @@
+func sumOfMinimums(_ numbers: [[Int]]) -> Int {
+    var sum = 0
+    
+    for i in 0...numbers.count - 1 {
+        sum += numbers[i].min()!
+    }
+    return sum
+}
